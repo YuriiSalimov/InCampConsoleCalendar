@@ -44,7 +44,7 @@ public final class CalendarMonth {
         if (object == null || getClass() != object.getClass()) {
             return false;
         }
-        CalendarMonth calendarMonth = (CalendarMonth) object;
+        final CalendarMonth calendarMonth = (CalendarMonth) object;
         return this.yearMonth.equals(calendarMonth.yearMonth);
     }
 

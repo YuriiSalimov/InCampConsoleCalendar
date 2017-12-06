@@ -16,7 +16,7 @@ public final class CalendarDay {
 
         private final String value;
 
-        Color(String value) {
+        Color(final String value) {
             this.value = value;
         }
 
